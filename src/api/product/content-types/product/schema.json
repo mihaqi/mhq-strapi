@@ -48,6 +48,12 @@
       "relation": "manyToOne",
       "target": "api::category.category",
       "inversedBy": "products"
+    },
+    "composition": {
+      "type": "string"
+    },
+    "goodsnumber": {
+      "type": "string"
     }
   }
 }

@@ -1,6 +1,5 @@
 module.exports = [
   "strapi::errors",
-  // ...
   {
     name: "strapi::security",
     config: {
@@ -12,14 +11,14 @@ module.exports = [
             "'self'",
             "data:",
             "blob:",
-            "market-assets.strapi.io",
+            "dl.airtable.com",
             "res.cloudinary.com",
           ],
           "media-src": [
             "'self'",
             "data:",
             "blob:",
-            "market-assets.strapi.io",
+            "dl.airtable.com",
             "res.cloudinary.com",
           ],
           upgradeInsecureRequests: null,
@@ -27,7 +26,6 @@ module.exports = [
       },
     },
   },
-  // ...
   "strapi::cors",
   "strapi::poweredBy",
   "strapi::logger",
